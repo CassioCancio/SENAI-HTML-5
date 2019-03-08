@@ -1,0 +1,9 @@
+COR
+	#ff9933
+		-Todos os tons de laranja do site
+	#a70000
+		-Textos de destaque
+		-Endereço
+	#361a0c
+		- Todos os tons marrons do site
+		

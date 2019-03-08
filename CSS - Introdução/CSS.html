@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML e CSS</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: lightblue;
+    }
+    /* div{
+        width: 800px;
+        height: 300px;
+        background: hsl(0, 100%, 50%);
+    } */
+    .paragrafo_branco{
+    color: rgb(255, 255, 255);
+    }
+    #box_azul{
+        width: 80%;
+        height: 500px;
+        background:#0000ff8e;
+        margin: 0 auto;
+        padding-left: 100px;
+    }
+    #box_azul h1{
+        text-align: center;
+        color: #FF9933;
+    }
+    
+    #box_azul p{
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #box-pai{
+        width: 90%;
+        height: 350px;
+        background-color: #bbec0a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    } 
+    #box_vermelho{
+        width: 80%;
+        height: 100px;
+        background: red;
+        margin: 0 auto;
+    }
+    .primeiro{
+        order: 1;
+    }
+    /* .flex1{
+        flex-grow: 1
+    }
+    .flex2{
+        flex-grow: 2
+    } */
+    .box{
+        width: 300px;
+        height: 300px;
+        background: #ffffff;
+        padding: 10px;
+        text-align: center;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 2px;
+        /* border: solid #000000 2px; */
+    }
+    </style>
+</head>
+<body>
+    <div id="box_azul">
+        <h1>Posicionando os elementos</h1>
+        <p class="paragrafo_branco">Aqui vai o primeiro texto</p>
+        <div id="box-pai">
+        <div class="box">
+<!-- flex1 -->
+            <h2>Título 1</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore perferendis quisquam odit enim qui recusandae. Iure blanditiis ipsam et porro?</p>
+        </div>
+        <div class="box primeiro">
+<!-- flex2 -->
+            <h2>Título 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore perferendis quisquam odit enim qui recusandae. Iure blanditiis ipsam et porro?</p>
+        </div>
+        <div class="box">
+<!-- flex1 -->
+            <h2>Título 3</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore perferendis quisquam odit enim qui recusandae. Iure blanditiis ipsam et porro?</p>
+        </div>
+    </div>
+    </div>
+    <div id="box_vermelho">
+        <p class="paragrafo_branco">Aqui vai o segundo texto</p>
+    </div>
+</body>
+</html>

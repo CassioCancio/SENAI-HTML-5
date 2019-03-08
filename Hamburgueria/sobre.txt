@@ -1,0 +1,8 @@
+TAGS
+	img
+	a
+	section
+	address
+	header
+	footer
+	nav
